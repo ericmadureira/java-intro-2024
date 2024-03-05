@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         // Global scope variables can be initialized with no value.
@@ -26,5 +28,19 @@ public class Main {
         } else {
             System.out.print("Sorry, you're under age.");
         }
+
+        // Arrays
+        // Uses {} instead of []
+        char[] initials = {'E', 'M', 'G'}; // 1. Declare and set elements...
+        int[] favoriteNumbers = new int[4]; // 2. or Declare with size.
+
+        // ArrayList (dynamic array)
+        ArrayList<String> myDogs = new ArrayList<String>();
+        myDogs.add("Vicky Cristina Barcelona");
+        myDogs.add("Salsicha");
+        myDogs.add("Maní");
+        myDogs.get(1); // Gets element at index 1.
+        myDogs.size();
+
     }
 }

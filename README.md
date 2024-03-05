@@ -6,4 +6,6 @@ Learning Java basics like:
 - JDK 17
 - IntelliJ
 - The 8 primitives
-- Conditionals 
+- Conditionals
+- Array
+- ArrayList
