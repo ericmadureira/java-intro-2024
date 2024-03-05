@@ -42,5 +42,15 @@ public class Main {
         myDogs.get(1); // Gets element at index 1.
         myDogs.size();
 
+        // Loops
+        for(var index = 0; index < 3; index++){
+            System.out.println("I can see a dog...");
+        }
+        int pizzaSlices = 8;
+        int pizzaIndex = 0;
+        while(pizzaIndex < pizzaSlices){
+            System.out.println("Just ate another delicious slice of pizza.");
+            pizzaIndex++;
+        }
     }
 }
