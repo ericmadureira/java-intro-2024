@@ -8,7 +8,7 @@ public class Main {
         age = 32;
 
         // Local scope variables must be initialized.
-        var name = "Eric";
+        var fakeName = "Cire";
 
         // There are 8 primitive types:
         // 4 integers with different sizes...
@@ -19,6 +19,7 @@ public class Main {
         // and 4 others you may recognize from other languages:
         boolean isBrazilian = true;
         char initial = 'E'; // Only takes a single character. In Java String comes from a class, not a primitive.
+        String name = "Eric";
         float grade = 8.51F; // Holds decimals. Must add F to end of value.
         double cosmicTimer = 4.43454234324; // Holds even more decimals.
 
@@ -52,5 +53,17 @@ public class Main {
             System.out.println("Just ate another delicious slice of pizza.");
             pizzaIndex++;
         }
+
+        // Implicit casting
+        int cloudsInSky = 36;
+        double decimalClouds = cloudsInSky;
+
+        // Explicit casting
+        double decimalAge = 32.984579586;
+        int roundedAge = (int) decimalAge;
+
+        // Int to String
+        String stringfiedAge = String.valueOf(age);
+        // int StringToInt = Integer.parseInt(name);
     }
 }
