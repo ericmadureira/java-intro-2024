@@ -75,9 +75,9 @@ public class Main {
         String stringfiedAge = String.valueOf(age);
         // int StringToInt = Integer.parseInt(name);
 
-        Person Eric = new Person();
+        Person Eric = new Person("Eric", 32);
         // You can create instance of Subclass even if the type is defined as Super class.
-        Person Bela = new Brazilian();
+        Person Bela = new Brazilian("Bela", 23, "Bahia", "Feijao");
         // On the other hand, the opposite is not valid.
         // Brazilian Angela = new Person();
     }
