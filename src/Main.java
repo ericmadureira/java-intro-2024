@@ -33,11 +33,11 @@ public class Main {
         double cosmicTimer = 4.43454234324; // Holds even more decimals.
 
         // Conditionals
-        if(age >= 18){
-            System.out.print("Can drink beer!");
-        } else {
-            System.out.print("Sorry, you're under age.");
-        }
+//        if(age >= 18){
+//            System.out.print("Can drink beer!");
+//        } else {
+//            System.out.print("Sorry, you're under age.");
+//        }
 
         // Arrays
         // Uses {} instead of []
@@ -53,15 +53,15 @@ public class Main {
         myDogs.size();
 
         // Loops
-        for(var index = 0; index < 3; index++){
-            System.out.println("I can see a dog...");
-        }
-        int pizzaSlices = 8;
-        int pizzaIndex = 0;
-        while(pizzaIndex < pizzaSlices){
-            System.out.println("Just ate another delicious slice of pizza.");
-            pizzaIndex++;
-        }
+//        for(var index = 0; index < 3; index++){
+//            System.out.println("I can see a dog...");
+//        }
+//        int pizzaSlices = 8;
+//        int pizzaIndex = 0;
+//        while(pizzaIndex < pizzaSlices){
+//            System.out.println("Just ate another delicious slice of pizza.");
+//            pizzaIndex++;
+//        }
 
         // Implicit casting
         int cloudsInSky = 36;
@@ -78,7 +78,12 @@ public class Main {
         Person Eric = new Person("Eric", 32);
         // You can create instance of Subclass even if the type is defined as Super class.
         Person Bela = new Brazilian("Bela", 23, "Bahia", "Feijao");
+        System.out.println(Bela.greeting());
         // On the other hand, the opposite is not valid.
         // Brazilian Angela = new Person();
+
+        French Marie = new French("Marie", 24, true);
+        System.out.println(Marie.greeting());
+
     }
 }
