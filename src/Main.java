@@ -1,10 +1,19 @@
 import java.util.ArrayList;
 
+// Just one public class per file, and its name should be identical to filename.
 public class Main {
+    private int salary;
+    protected int height;
+    private void updateSalary(){
+        this.salary = 3000;
+    }
+    public int getSalary(){
+        return this.salary;
+    }
+
     public static void main(String[] args) {
         // Global scope variables can be initialized with no value.
         int age;
-        int salary = 3000;
         age = 32;
 
         // Local scope variables must be initialized.
